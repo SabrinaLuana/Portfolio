@@ -40,9 +40,12 @@ body {
 }
 
 .container{
-
     display: flex;
     justify-content: space-between;
+}
+
+.tamanho{
+    height: 10px;
 }
 
 #sobre h1{
@@ -97,6 +100,7 @@ nav{
 }
 .nav-links li{
     margin-left: 2rem;
+    margin-left: 1px;
 }
 .margin{
     margin-right: 2rem;
@@ -264,6 +268,7 @@ section{
 footer{
     padding: 20px 4%;
     background-color: var(--cor-primaria);
+
 }
 
 footer .flex{
@@ -306,6 +311,9 @@ footer .line-footer p a{
     .container{
         padding: 0 0.1rem;
     }
+    .tamanho{
+        height: 30px;
+    }
     
 }
 
@@ -319,6 +327,40 @@ footer .line-footer p a{
 @media screen and (max-width: 1028px){
     .dev-imagem{
         padding-left: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 390px){
+    
+}
+
+@media screen and (max-width: 332px){
+    .projetos-grid{
+        display: grid;
+        grid-template-columns: none;
+        gap: 2rem;
+        
+    }
+}
+
+
+@media screen and (max-width: 216px){
+    footer{
+        width: 219px;
+        
+
+    }
+
+}
+
+@media screen and (max-width: 319px) {
+    .tamanho{
+        height: 50px;
+    }
+
+    .nav-links li{
+        margin-left: 10px;
     }
     
 }
