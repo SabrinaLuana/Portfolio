@@ -52,11 +52,11 @@ body {
     padding-top: 20px;
 }
 #skills h2{
-    padding-top: 59px;
+    padding-top: 30px;
 }
 
 #projetos h2{
-    padding-top: 55px;
+    padding-top: 30px;
 }
 
 h2{
@@ -100,7 +100,6 @@ nav{
 }
 .nav-links li{
     margin-left: 2rem;
-    margin-left: 1px;
 }
 .margin{
     margin-right: 2rem;
@@ -144,7 +143,7 @@ section{
     margin-bottom: 2rem;
 }
 
-.botao-de-contato{
+.botao-de-curriculo{
     background-color: var(--cor-primaria);
     text-decoration: none;
     color: white;
@@ -153,7 +152,7 @@ section{
     transition: var(--transicao);
 }
 
-.botao-de-contato:hover{
+.botao-de-curriculo:hover{
     background-color: var(--cor-secundaria);
 }
 
@@ -255,9 +254,6 @@ section{
 .flex{
     display: flex;
 }
-/* .logo-footer img{
-    width: 70px;
-} */
 
 .logo-footer{
     font-size: 1.5rem;
@@ -314,7 +310,20 @@ footer .line-footer p a{
     .tamanho{
         height: 30px;
     }
-    
+    .dev {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .dev-imagem{
+        display: flex;
+        margin-top: 100px;
+        justify-content: center;
+    }
+
+    .imagem-perfil{
+        width: 300px;
+    }
 }
 
 @media screen and (max-width: 364px){
@@ -328,10 +337,6 @@ footer .line-footer p a{
     .dev-imagem{
         padding-left: 0px;
     }
-    
-}
-
-@media screen and (max-width: 390px){
     
 }
 
@@ -349,7 +354,6 @@ footer .line-footer p a{
     footer{
         width: 219px;
         
-
     }
 
 }
@@ -364,3 +368,157 @@ footer .line-footer p a{
     }
     
 }
+
+@media screen and (max-width: 320px) {
+    #sobre h1{
+        padding-top: 80px;
+    }
+    #skills h2{
+        padding-top: 55px;
+    }
+    
+    #projetos h2{
+        padding-top: 55px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 286px) {
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+    
+    } 
+    .logo{
+        margin-left: 30px;
+    }
+
+    .dev {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .dev-imagem{
+        display: flex;
+        margin-top: 100px;
+        justify-content: center;
+    }
+
+    .imagem-perfil{
+        width: 200px;
+    }
+    
+}
+
+
+@media screen and (max-width: 281px) {
+    .logo{
+        margin-left: 30px;
+        font-size: 20px;
+    }
+
+    ul li a{
+        font-size: 12px;
+    } 
+
+    .dev-texto h1{
+        font-size: 40px;
+    }
+    .dev-texto p{
+        font-size: 15px;
+    }
+    
+
+}
+@media screen and (max-width: 244px) {
+    
+    .logo{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+
+    ul li a{
+        font-size: 12px;
+    } 
+    .margin{
+        margin-right: 30px;
+    }
+    
+}
+@media screen and (max-width: 234px) {
+    .dev-texto h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        color: var(--cor-primaria);
+    }
+    
+    .dev-texto p{
+        font-size: 1.0rem;
+        margin-bottom: 2rem;
+    }
+
+    .dev-texto{
+        margin-left: 10px;
+    }
+
+    .botao-de-curriculo{
+        background-color: var(--cor-primaria);
+        text-decoration: none;
+        color: white;
+        padding: 0.60rem 1.0rem;
+        border-radius: 5px;
+        transition: var(--transicao);
+        font-size: 15px;
+}
+
+@media screen and (max-width: 214px) {
+    .imagem-perfil{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 167px) {
+    .dev-texto h1 {
+        font-size: 2.0rem;
+        margin-bottom: 1rem;
+        color: var(--cor-primaria);
+    }
+    
+    .dev-texto p{
+        font-size: 1.0rem;
+        margin-bottom: 2rem;
+    }
+
+    .dev-texto{
+        margin-left: 5px;
+    }
+
+
+    .botao-de-curriculo{
+        background-color: var(--cor-primaria);
+        text-decoration: none;
+        color: white;
+        padding: 0.60rem 1.0rem;
+        border-radius: 5px;
+        transition: var(--transicao);
+        font-size: 11px;
+    }
+    .imagem-perfil{
+        width: 100px;
+    }
+    .dev-imagem{
+        margin-top: 100px;
+    }
+
+    
+}
+
+
+
